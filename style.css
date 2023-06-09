@@ -201,6 +201,18 @@ footer{
     .cover-contact{
         grid-template-columns: 1fr 1fr 1fr ;
     }
+    .img-intro img{
+        /* object-fit: 100%; */
+        width: 90%;
+        height: 90%;
+    }
+    .content-intro{
+        margin-left: 20px;
+        padding: 20px 20px 40px 0px;
+    }
+    .content-intro h1{
+        font-size: 20px;
+    }
 }
 @media screen and (max-width:768px){
     .cover-contact{
